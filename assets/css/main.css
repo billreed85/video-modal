@@ -1,0 +1,50 @@
+/*
+    LESS CSS Toolkit
+
+    A collection of re-usable LESS CSS Mixins
+
+    https://github.com/danieltott/Less-CSS-Toolkit
+
+    Created by [Dan Ott](http://dtott.com)
+
+    Maintained and improved by Dan Ott and [Bridget Stewart](http://sharksandcupcakes.com)
+
+*/
+
+/* ==========================================================================
+   Custom Helpers
+   ========================================================================== */
+
+.clearall {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}
+
+.video-container {
+  position: relative;
+  display: table-cell;
+  padding-right: 0;
+  padding-left: 0;
+  vertical-align: bottom;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 33px;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1229px) {
+  .video {
+    padding: 27px;
+  }
+}
